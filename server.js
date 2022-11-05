@@ -6,6 +6,7 @@ http.createServer(function(request, response) {
     response.write("<h1>Hello, Node.js!</h1>");
     response.write("<h2>Nathan Sheffels - j67q156, Node.js!</h2> \
     <p>Running node server on port 5003</p> \
-    <p>My repo: <a href='https://github.com/user-nate/csci331_node'>GitHub</a></p>");
-    response.end();
+    <p>My repo for this project: <a href='https://github.com/user-nate/csci331_node'>GitHub</a></p> \
+    <p>The repo for my mern 2 project...I could not get it hosted on my port <a href='hyyps://github.com/user-nate/mern2'>GitHub</a> </p>");
+     response.end();
 }).listen(5003);
